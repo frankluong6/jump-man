@@ -37,13 +37,14 @@ public class Jump : MonoBehaviour
                 //rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
 
                 //To be removed
+                /*
                 if(transform.position.y > 1.5)
                 {
                     GetComponent<Rigidbody2D>().gravityScale = 0;
                     Debug.Log("Gravitation Disabled");
                     rb.velocity = new Vector2(0, 0);
                     rb.velocity = new Vector2(0, 0);
-                }
+                }*/
             }
 
             //if (touch.phase == TouchPhase.Moved)
