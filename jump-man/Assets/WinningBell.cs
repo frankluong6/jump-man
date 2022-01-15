@@ -18,8 +18,8 @@ public class WinningBell : MonoBehaviour
         if(bell.IsTouching(jump_man))
         {
             print("Jump man is touching the bell.");
-            Application.Quit();
-            print("Ending game!");
+            //Application.Quit();
+            print("You won!");
         }
     }
 }

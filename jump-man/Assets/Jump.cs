@@ -28,12 +28,12 @@ public class Jump : MonoBehaviour
             {
                 print(theTouches + " touch(es) detected");
                 print("touchPosition: " + touchPosition);
-                
+
                 if (touchPosition.x > 0) 
                     rb.velocity = new Vector2(moveSpeed, jumpForce);
                 else if (touchPosition.x <= 0)
                     rb.velocity = new Vector2(-moveSpeed, jumpForce);
-
+                
                 //rb.velocity = new Vector2(moveSpeed, rb.velocity.y);
 
                 //To be removed
